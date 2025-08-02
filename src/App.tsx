@@ -53,24 +53,11 @@ function App() {
   // O resto do seu componente JSX continua igual...
   return (
     <div className="App">
-      <h1>Minha Atividade do Discord</h1>
-      {auth ? (
-        <div>
-          <p>Bem-vindo, {auth.user.username}!</p>
-          <img
-            src={`https://cdn.discordapp.com/avatars/${auth.user.id}/${auth.user.avatar}.png`}
-            alt="Avatar"
-            style={{ borderRadius: '50%' }}
-          />
-        </div>
-      ) : (
-        <p>Carregando no Discord ou a ser acedido diretamente...</p>
-      )}
-      <hr />
-      <h1>FUNCIONANDO</h1>
-      {
-      //<FoundryVTTViewer foundryUrl="/" />
-      }
+      
+     
+      
+      <FoundryVTTViewer foundryUrl="/" />
+      
     </div>
   );
 }
