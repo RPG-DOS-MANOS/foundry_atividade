@@ -6,7 +6,7 @@ import FoundryVTTViewer from './components/FoundryVTTViewer';
 function App() {
   return (
     <div className="App">
-      <FoundryVTTViewer foundryUrl="http://rpgdosmanos.com.br" />
+      <FoundryVTTViewer foundryUrl="https://rpgdosmanos.com.br" />
     </div>
   );
 }
